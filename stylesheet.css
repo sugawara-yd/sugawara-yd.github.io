@@ -1,0 +1,56 @@
+main{
+  width: 1400px;
+  height: 800px;
+  background-image: url(img/enter.jpeg);
+  background-size: cover;
+  margin: auto;
+  opacity: 0.7;
+  position: relative;
+}
+
+.container{
+  
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  top:200px;
+  left:500px;
+}
+
+.btn{
+  height: 99px;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(255, 136, 249);
+  border-radius: 20%;
+  box-shadow: white 0 10px;
+  opacity: 0.7;
+}
+
+.enter{
+  color:#fff;
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+}
+
+.btn:hover{
+  opacity: 1;
+  
+}
+
+.btn:active{
+  box-shadow: none;
+  position: relative;
+  top:10px;
+}
+
+a{
+  display: block;
+  line-height: 90px;
+}
+
+.enter{
+  display: block;
+}
